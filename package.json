@@ -1,0 +1,19 @@
+{
+  "name": "test-package",
+  "version": "0.0.0",
+  "description": "This is test package",
+  "main": "./lib/convert.js",
+  "scripts": {
+    "lib": "babel ./src --out-dir lib  --source-maps",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bloody-falcon/test.git"
+  },
+  "author": "Falcon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloody-falcon/test/issues"
+  },
+  "homepage": "https://github.com/bloody-falcon/test"
+}
